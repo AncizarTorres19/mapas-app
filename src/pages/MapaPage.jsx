@@ -13,16 +13,14 @@ export const MapaPage = () => {
     useEffect(() => {
 
         nuevoMarcador$.subscribe(marcador => {
-            // console.log('marcador nuevo');
-            // console.log(marcador);
+
         });
 
     }, [nuevoMarcador$])
 
     useEffect(() => {
         movimientoMarcador$.subscribe(marcador => {
-            console.log('marcador movido');
-            console.log(marcador);
+
         });
     }, [movimientoMarcador$])
 
