@@ -20,7 +20,7 @@ export const MapaPage = () => {
 
     useEffect(() => {
         movimientoMarcador$.subscribe(marcador => {
-
+            console.log(marcador.id);
         });
     }, [movimientoMarcador$])
 
